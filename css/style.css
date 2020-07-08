@@ -12,10 +12,8 @@
 }
 
 img {
-    max-width: 100%;
+    max-width: 30% !important;
 }
-
-
 
 
 header {
@@ -39,9 +37,16 @@ header {
 
 @media screen and (min-width:1024px){
     header{
-        height: 45rem;
+        height: 50rem;
     }
 }
+
+@media screen and (min-width:1440px){
+    header{
+        height: 60rem;
+    }
+}
+
 
 /* Main Principal */
 .main-principal {
@@ -58,3 +63,6 @@ header {
     font-size: 1.3rem;
     margin: 1rem;
 }
+
+
+
