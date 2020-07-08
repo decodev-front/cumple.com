@@ -1,0 +1,60 @@
+
+.tipo-letraA{
+    font-family: 'Dancing Script', cursive !important;
+}
+
+.tipo-letrab{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.fw-700{
+    font-weight: bold !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+header {
+    background-image: url("../img/heading.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+}
+
+@media screen and (min-width:768px){
+    header{
+        height: 30rem;
+    }
+}
+
+@media screen and (min-width:992px){
+    header{
+        height: 45rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+    header{
+        height: 45rem;
+    }
+}
+
+/* Main Principal */
+.main-principal {
+    background-color: #f0f8ff;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.main-principal .encabezado h3{
+    font-size: 2.5rem;   
+}
+
+.main-principal .encabezado p{
+    font-size: 1.3rem;
+    margin: 1rem;
+}
