@@ -11,9 +11,46 @@
     font-weight: bold !important;
 }
 
+.titulo-animado{
+    color: rgba(226, 24, 165, 0.904);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width:768px){
+    .titulo-animado{
+        font-size: 3rem;   
+    }
+}
+
+
+@media screen and (min-width:1024px){
+    .titulo-animado{
+        font-size: 4rem;   
+    }
+}
+
+@media screen and (min-width:1440px){
+    .titulo-animado{
+        font-size: 5rem;   
+    }
+}
+
 img {
     max-width: 30% !important;
-    margin-left: 1rem;
+    margin: 1rem .5rem;
+}
+
+@media screen and (min-width:1024px){
+    .main-principal .encabezado h3{
+        font-size: 4rem;   
+    }
+}
+
+@media screen and (min-width:1440px){
+    .main-principal .encabezado h3{
+        font-size: 5rem;   
+    }
 }
 
 
@@ -48,10 +85,36 @@ header {
     }
 }
 
+header h3{
+    position: absolute;
+    top: 9rem;
+    right: 1rem;
+}
+
+@media screen and (min-width:768px){
+    header h3{
+        top: 18rem;
+        right: 2rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+    header h3{
+        top: 32rem;
+    }
+}
+
+@media screen and (min-width:1440px){
+    header h3{
+        top: 38rem;
+        right: 4rem;
+    }
+}
+
 
 /* Main Principal */
 .main-principal {
-    background-color: #f0f8ff;
+    background-color: #f1a5e556;
     padding-top: 1rem;
     text-align: center;
 }
@@ -60,9 +123,32 @@ header {
     font-size: 2.5rem;   
 }
 
+@media screen and (min-width:1024px){
+    .main-principal .encabezado h3{
+        font-size: 4rem;   
+    }
+}
+
+@media screen and (min-width:1440px){
+    .main-principal .encabezado h3{
+        font-size: 5rem;   
+    }
+}
+
 .main-principal .encabezado p{
     font-size: 1.3rem;
     margin: 1rem;
 }
 
+@media screen and (min-width:1024px){
+    .main-principal .encabezado p{
+        font-size: 2rem;   
+    }
+}
+
+@media screen and (min-width:1440px){
+    .main-principal .encabezado p{
+        font-size: 2.6rem;   
+    }
+}
 
