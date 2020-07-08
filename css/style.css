@@ -152,3 +152,44 @@ header h3{
     }
 }
 
+/* Section */
+section {
+    background-color: #f1a5e69f;
+    padding: 2rem;
+}
+
+section h3{
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+@media screen and (min-width:1024px){
+    section h3{
+        font-size: 3rem;
+    }  
+}
+
+@media screen and (min-width:1440px){
+    section h3{
+        font-size: 4.5rem;
+    }  
+}
+
+
+section .texto-section p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width:1024px){
+    section .texto-section p{
+        font-size: 2rem;
+    }  
+}
+
+@media screen and (min-width:1440px){
+    section .texto-section p{
+        font-size: 2.5rem;
+    }  
+}
+
